@@ -1,0 +1,50 @@
+
+.Storis {
+  .swiper-slide {
+    width: 80px;
+    &:first-child {
+      margin-left: 16px;
+    }
+    &:last-child {
+      margin-right: 16px;
+    }
+  }
+}
+
+.Storis-item {
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  &:before {
+    content: '';
+    background: linear-gradient(148.81deg, #4F348B 1.78%, rgba(79, 52, 139, 0.16) 1.79%, #000000 92.1%);
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    position: absolute;
+    z-index: 1;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    border: 1px solid #7E50FE;
+  }
+  &__title {
+    position: absolute;
+    bottom: 10px;
+    left: 4px;
+    right: 4px;
+    z-index: 2;
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: -0.019em;
+  }
+}

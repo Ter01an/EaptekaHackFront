@@ -1,0 +1,19 @@
+.justwidget-iframe--content .justwidget .justwidget--inner {
+    height: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+.justwidget-iframe--content .justwidget {
+    max-height: 100% !important;
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+.justwidget .justwidget--headline {
+    display: none !important;
+}
+
+.justwidget--powered_label {
+    display: none !important;
+}

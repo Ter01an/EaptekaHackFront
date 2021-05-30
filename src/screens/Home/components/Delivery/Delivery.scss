@@ -1,0 +1,55 @@
+
+.Delivery {
+  .swiper-slide {
+    width: 210px;
+    &:first-child {
+      margin-left: 16px;
+    }
+    &:last-child {
+      margin-right: 16px;
+    }
+  }
+}
+
+.Delivery-item {
+  background: #81A4FF;
+  box-shadow: 0 0 12px rgba(153, 153, 153, 0.25);
+  border-radius: 12px;
+  padding: 12px;
+  color: #fff;
+  &--pickup {
+    background: #7E50FE;
+    .Delivery-item__date {
+      color: #5520EE;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 116%;
+    margin-bottom: 4px;
+  }
+  &__count {
+    color: #ECEBF1;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 4px;
+  }
+  &__time {
+    color: #ECEBF1;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 12px;
+  }
+  &__date {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 16px;
+    padding: 6px 8px;
+    line-height: 1;
+    color: #2E68FF;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

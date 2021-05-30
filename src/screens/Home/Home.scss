@@ -1,0 +1,27 @@
+
+.Home {
+  background: url("./static/bg.png") repeat-x top center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  &__storis {
+    margin-bottom: 24px;
+  }
+  &__search {
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+  &__schedule {
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+  &__delivery {
+    margin: 24px 0;
+  }
+  &__last-order {
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+  &__viewed {
+    margin: 24px 0 0 0;
+  }
+}

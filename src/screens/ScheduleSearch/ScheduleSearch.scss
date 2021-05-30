@@ -1,0 +1,59 @@
+
+.ScheduleSearch {
+  &__items {
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+}
+
+.ScheduleSearch-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ECEBF1;
+  &:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+  &__media {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #130E22;
+    opacity: 0.92;
+    margin-bottom: 2px;
+  }
+  &__package {
+    font-size: 12px;
+    line-height: 130%;
+    color: #67666C;
+  }
+  &__buttons {
+    margin-left: auto;
+  }
+  &__button {
+    filter: drop-shadow(0px 0px 12px rgba(153, 153, 153, 0.25));
+    background: #7E50FE;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 6px;
+    &--active {
+      background: #20C095;
+    }
+  }
+}

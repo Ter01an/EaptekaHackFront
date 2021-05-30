@@ -1,0 +1,43 @@
+
+.LastOrder {
+  background: #FFFFFF;
+  box-shadow: 0 0 12px rgba(153, 153, 153, 0.25);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 6px;
+  }
+  &__subtitle {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  &__items {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  &__button {
+    background: #7E50FE;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 50%;
+  }
+}
+
+.LastOrder-item {
+  margin: 0 6px;
+  img {
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    height: 32px;
+  }
+}
