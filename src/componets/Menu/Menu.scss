@@ -7,6 +7,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+    position: relative;
+    z-index: 1100;
+    img {
+        display: block;
+    }
     &__item {
         display: flex;
         align-items: center;
@@ -16,12 +21,10 @@
         text-decoration: none;
     }
     &__icon {
-        border: 2px solid rgba(17, 17, 17, 0.42);
-        box-sizing: border-box;
-        margin-bottom: 4px;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
+        margin-bottom: 1px;
+        &--sber {
+            margin: -55px -15px -35px;
+        }
     }
     &__title {
         font-weight: 500;
